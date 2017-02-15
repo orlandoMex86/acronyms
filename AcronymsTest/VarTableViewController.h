@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VarTableViewController.h
 //  AcronymsTest
 //
 //  Created by Orlando Hiram Banuelos on 2/10/17.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface VarTableViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, strong) NSArray *arrVar;
 
 @end
-
